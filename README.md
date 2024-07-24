@@ -24,7 +24,7 @@ This project is a dynamic portfolio website that includes a contact form. The ba
 
 ## Architecture Diagram
 
-![image](https://github.com/user-attachments/assets/118c1f16-0467-4350-9aae-071e8ee1d77c)
+![daud-website-portfolio-architecture](https://github.com/user-attachments/assets/231df027-4df1-4529-8a7e-9b02e624a3a1)
 
 ## AWS Services
 
