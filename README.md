@@ -76,6 +76,13 @@ This project is a dynamic portfolio website that includes a contact form. The ba
 
 ### Step 4: Creating a Cloudfront Distribution
 
+1. Log in to AWS Console and open **CloudFront**.
+2. Create a Distribution and select **Web**.
+3. Configure Origin Settings: Set **Origin Domain Name** to your S3 bucket, choose **HTTPS Only**.
+4. Set Cache Behavior: Redirect HTTP to HTTPS and configure allowed HTTP methods.
+5. Add Custom Domain under **Alternate Domain Names (CNAMEs)** and configure the **SSL Certificate**.
+6. Update DNS Records to point your domain to the CloudFront distribution.
+
 ![image](https://github.com/user-attachments/assets/823c405f-383a-4bad-883b-d66fcd477fab)
 
 ### Step 5: Creating a DynamoDB Table
