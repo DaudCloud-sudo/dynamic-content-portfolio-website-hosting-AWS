@@ -11,9 +11,10 @@ This repository contains the code and configuration for my dynamic portfolio web
     - [Step 1: Creating a Hosted Zone](#step-1-creating-a-hosted-zone)
     - [Step 2: Registering a Domain](#step-2-registering-a-domain)
     - [Step 3: Getting a SSL/TLS Certificate in ACM](#step-3-getting-a-ssl/tls-certificate-in-acm)
-    - [Step 4: Creating a DynamoDB Table](#step-4-creating-a-dynamodb-table)
-    - [Step 5: Creating Lambda Functions](#step-5-creating-lambda-functions)
-    - [Step 6: Setting Up API Gateway](#step-6-setting-up-api-gateway)
+    - [Step 4: Creating a Cloudfront distribution](#step-4-creating-a-cloudfront-distribution)
+    - [Step 5: Creating a DynamoDB Table](#step-4-creating-a-dynamodb-table)
+    - [Step 6: Creating Lambda Functions](#step-5-creating-lambda-functions)
+    - [Step 7: Setting Up API Gateway](#step-6-setting-up-api-gateway)
 5. [Testing](#testing)
 6. [Conclusion](#conclusion)
 
@@ -73,8 +74,11 @@ This project is a dynamic portfolio website that includes a contact form. The ba
 
 ![image](https://github.com/user-attachments/assets/4b7e6b8c-39fa-445b-81a9-b53d3ea81ca3)
 
+### Step 4: Creating a Cloudfront Distribution
 
-### Step 4: Creating a DynamoDB Table
+![image](https://github.com/user-attachments/assets/823c405f-383a-4bad-883b-d66fcd477fab)
+
+### Step 5: Creating a DynamoDB Table
 
 1. Open the DynamoDB console.
 2. Click the "Create table" button.
@@ -87,7 +91,7 @@ This project is a dynamic portfolio website that includes a contact form. The ba
 
 ![image](https://github.com/user-attachments/assets/fb5c995c-2fe4-43b7-8773-416a19cb6b5c)
 
-### Step 5: Creating Lambda Functions
+### Step 6: Creating Lambda Functions
 
 1. Open the Lambda console.
 2. Click "Create function".
@@ -101,7 +105,7 @@ This project is a dynamic portfolio website that includes a contact form. The ba
 
 ![image](https://github.com/user-attachments/assets/7c7dd21b-6661-4b49-b583-78f82d75ba5c)
  
-### Step 6: Setting Up API Gateway
+### Step 7: Setting Up API Gateway
 
 1. Open the API Gateway console.
 2. Click "Create API" and choose "REST API".
@@ -121,3 +125,14 @@ This project is a dynamic portfolio website that includes a contact form. The ba
 3. Verify that the form data is stored in DynamoDB.
 
 ![image](https://github.com/user-attachments/assets/6dfe5684-50c2-4c97-be0c-b782535dbb0e)
+
+### Conclusion
+
+This project demonstrates the complete setup and deployment of a dynamic portfolio website using various AWS services, including Route 53, CloudFront, S3, API Gateway, Lambda, ACM, and DynamoDB. The integration of these services provides a robust, scalable, and secure platform for hosting dynamic web content. The website handles form submissions seamlessly and stores data efficiently in DynamoDB. 
+
+The successful deployment and operation of this dynamic website showcase the potential of AWS services in building modern web applications. The implementation ensures low latency, high availability, and secure communication, providing an excellent user experience.
+
+You can view the static version of the portfolio website hosted on AWS S3 at the following link:
+[Static Portfolio Website](https://github.com/DaudCloud-sudo/portfolio-website-hosting-on-AWS-S3/tree/main)
+
+Future enhancements will further leverage AWS capabilities to improve functionality and user experience using AI and Artificial Bots, demonstrating the scalability and flexibility of cloud-based solutions.
