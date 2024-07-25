@@ -110,6 +110,8 @@ This project is a dynamic portfolio website that includes a contact form. The ba
 
 6. Once all Lambdas have been created, the Lambda dashboard will look like this.
 
+**All the necessary dependencies for the Node.js Lambda function are included in the ZIP file.**
+
 ![image](https://github.com/user-attachments/assets/7c7dd21b-6661-4b49-b583-78f82d75ba5c)
  
 ### Step 7: Setting Up API Gateway
