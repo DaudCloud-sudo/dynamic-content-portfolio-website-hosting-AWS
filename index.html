@@ -1,0 +1,1010 @@
+<!--
+=========================================================
+Author: Shahzaib Daud
+Occupation: Computer Engineer
+Website: www.shahzaibdaud.com
+Date: 01-07-2024
+
+Description:
+This HTML file is part of the portfolio website project. It is used to create the structure of the web pages.
+
+Usage:
+This code is open-source and can be used and modified as per the requirements. Please give credit to the original author when using this code.
+
+=========================================================
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Daud's Portfolio</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <!--Header content-->
+      <img src="images/Logo.png" alt="Logo" class="logo" />
+      <div class="header-container">
+        <h1>Visionary Engineer</h1>
+        <h2>Crafting the Future of Technology with AI and Cloud Solutions</h2>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="#" data-section="about">About</a></li>
+          <li><a href="#" data-section="education">Education</a></li>
+          <li><a href="#" data-section="projects">Projects</a></li>
+          <li><a href="#" data-section="skills">Skills</a></li>
+          <li><a href="#" data-section="interests">Interests</a></li>
+          <li><a href="#" data-section="awards">Awards</a></li>
+          <li><a href="#" data-section="blog">Blog</a></li>
+        </ul>
+      </nav>
+      <button id="language-toggle" class="modern-btn">Deutsch</button>
+      <button id="theme-toggle" class="modern-btn">Visual Mode</button>
+    </header>
+    <main>
+      <!--About section-->
+      <div id="about" class="section active">
+        <h2 data-translate="about">About Me</h2>
+
+        <h3 data-translate="name">Shahzaib Daud</h3>
+        <p>
+          <strong data-translate="role">Computer Engineer from Pakistan</strong>
+        </p>
+        <!--<p data-translate="description" style="text-align: justify;"></p>-->
+        <p data-translate="description">
+          I am a dedicated Computer Engineer committed to continuous learning
+          and professional growth. My current focus includes
+          <strong>AWS Cloud Solutions</strong>, where I am expanding my skills
+          in architecture design, CI/CD pipelines, and DevOps practices. I am
+          also immersed in <strong>AI/ML technologies</strong>, specializing in
+          Deep Learning and Generative AI, and I integrate these advancements
+          into real-world applications. Additionally, I have expertise in
+          Embedded Systems and IIOT (Industrial Internet of Things), applying my
+          knowledge to create efficient and integrated solutions.
+        </p>
+        <p data-translate="passion-description">
+          While I am still advancing my expertise in these domains, I am
+          passionate about integrating cutting-edge technology to drive
+          innovation and efficiency. Furthermore, I am currently learning
+          <strong>Deutsch</strong> to broaden my communication abilities and
+          enhance international collaboration in tech projects.
+        </p>
+        <p data-translate="approach-description">
+          My approach combines theoretical knowledge with practical experience,
+          aiming to deliver scalable solutions that address complex challenges
+          across various industries.
+        </p>
+        <p data-translate="email">
+          Email:
+          <a href="mailto:engr.s.daud@gmail.com">engr.s.daud@gmail.com</a>
+        </p>
+        <p data-translate="phone">
+          Phone: <a href="tel:+923158963161">+92 315 8963161</a>
+        </p>
+        <div class="social-links">
+          <p data-translate="social-media-links">
+            <strong>Social Media Links</strong>
+          </p>
+          <a href="https://www.facebook.com/shahzaibdaud42/"
+            ><img src="images/facebook-icon.png" alt="Facebook"
+          /></a>
+          <a
+            href="https://www.linkedin.com/in/shahzaib-daud-electrical-engineer/"
+            ><img src="images/linkedin-icon.png" alt="LinkedIn"
+          /></a>
+          <a href="https://github.com/DaudCloud-sudo"
+            ><img src="images/github-icon.png" alt="GitHub"
+          /></a>
+          <a href="https://medium.com/@s.daud"
+            ><img src="images/medium-icon.png" alt="Medium"
+          /></a>
+          <p data-translate="resume-download">
+            <strong>Click Below to Download the Resume</strong>
+          </p>
+          <a href="resume.pdf" class="resume-link"
+            ><img src="images/resume-icon.png" alt="Download Resume"
+          /></a>
+        </div>
+      </div>
+      <!--Education Section-->
+      <section id="education" class="section">
+        <h2 data-translate="education-title">Education</h2>
+        <div class="education-entry">
+          <h3 data-translate="bachelor-degree">
+            Bachelor of Science in Electrical Engineering
+          </h3>
+          <p>
+            <strong data-translate="specialization">Specialization:</strong>
+            <span data-translate="specialization-detail"
+              >Computer System Engineering</span
+            >
+          </p>
+          <p>
+            <strong data-translate="institution">Institution:</strong>
+            <span data-translate="institution-bachelor"
+              >NUCES, FAST, Islamabad Campus</span
+            >
+          </p>
+          <p>
+            <strong data-translate="years-attended">Years Attended:</strong>
+            <span data-translate="years-bachelor">2019 - 2024</span>
+          </p>
+        </div>
+        <div class="education-entry">
+          <h3 data-translate="fsc-degree">FSc Pre-Engineering</h3>
+          <p>
+            <strong data-translate="institution">Institution:</strong>
+            <span data-translate="institution-fsc">Chenab College Jhang</span>
+          </p>
+          <p>
+            <strong data-translate="years-attended">Years Attended:</strong>
+            <span data-translate="years-fsc">2016 - 2018</span>
+          </p>
+        </div>
+        <div class="education-entry">
+          <h3 data-translate="matric-degree">Matriculation in Science</h3>
+          <p>
+            <strong data-translate="institution">Institution:</strong>
+            <span data-translate="institution-matric"
+              >Sacred Heart High School Jhang</span
+            >
+          </p>
+          <p>
+            <strong data-translate="years-attended">Years Attended:</strong>
+            <span data-translate="years-matric">2014 - 2016</span>
+          </p>
+        </div>
+      </section>
+      <!--Projects Section-->
+      <div id="projects" class="section">
+        <h2 data-translate="projects">Projects</h2>
+        <p data-translate="project-description">
+          I have been involved in a variety of projects that reflect my journey
+          in learning and applying AWS cloud solutions. These include deploying
+          and fine-tuning large language models like Llama 2 70B for specific
+          domains, developing secure, multi-client chat room servers, and
+          setting up Linux web servers on Raspberry Pi. Additionally, I
+          contributed to data preprocessing for a hyperspectral imaging project
+          focused on forensic analysis and collaborated on a research initiative
+          funded by NesCOM Atomic Energy Centre Islamabad, designing an
+          FPGA-based bus analyzer. Currently, I am deeply engaged in expanding
+          my knowledge of AWS cloud technologies for developing scalable
+          solutions, with a focus on AI & ML, Generative AI, chatbot
+          implementation, and DevOps practices. These projects underscore my
+          commitment to continuous learning and practical application of
+          advanced technologies in real-world contexts.
+        </p>
+
+        <h2 data-translate="projects-completed">Projects Completed</h2>
+
+        <div class="project">
+          <h3 data-translate="project1-title">
+            Llama 2 70B Model Evaluation, Deployment, and Fine-Tuning
+          </h3>
+          <p>
+            <strong data-translate="project1-date">Aug 2024 - Present</strong>
+          </p>
+          <p>
+            <strong data-translate="project1-association"
+              >Associated with Udacity</strong
+            >
+          </p>
+          <p data-translate="project1-description">
+            In this capstone project, I focused on evaluating, deploying, and
+            fine-tuning the Llama 2 70B model. By using a specialized IT domain
+            dataset, I transformed the pre-trained model into a domain expert.
+            The project involved data preprocessing, model evaluation, and
+            implementation of fine-tuning techniques to achieve optimal
+            performance. The outcome was a highly accurate and efficient
+            domain-specific language model ready for real-world applications.
+          </p>
+          <p>
+            <strong data-translate="project1-skills">Skills:</strong> Deep
+            Learning, NLP, Model Fine-Tuning, Transfer Learning, AWS Sagemaker,
+            and other related services
+          </p>
+        </div>
+
+        <div class="project">
+          <h3 data-translate="project2-title">
+            Medical Insurance Premium Prediction with Machine Learning
+          </h3>
+          <p>
+            <strong data-translate="project2-date">Aug 2023 - Aug 2023</strong>
+          </p>
+          <p data-translate="project2-description">
+            This project involved mastering the theoretical foundations and
+            practical use of neural networks through Keras and TensorFlow. I
+            built, trained, and evaluated neural network models, gaining
+            hands-on experience. I ensured data accuracy through meticulous
+            cleaning, used feature engineering techniques, and visualization
+            methods. I also extended the analysis by integrating linear
+            regression for enhanced insights and predictions. This project
+            developed my versatile skill set in machine learning, covering
+            neural networks, linear regression, data preprocessing, and
+            visualization.
+          </p>
+          <p>
+            <strong data-translate="project2-skills">Skills:</strong> Machine
+            Learning, Artificial Neural Networks
+          </p>
+        </div>
+
+        <div class="project">
+          <h3 data-translate="project3-title">
+            Research Project: iVision HHID - Handwritten Hyperspectral Images
+            Dataset for Forensic Analysis and Forgery Detection
+          </h3>
+          <p>
+            <strong data-translate="project3-date">May 2023 - Jul 2023</strong>
+          </p>
+          <p data-translate="project3-description">
+            Collaborating with a team from IST University on the iVision HHID
+            project, we focused on enhancing model accuracy for handwritten
+            hyperspectral images in document forensic analysis. Through advanced
+            hyperspectral imaging techniques, we collected diverse handwritten
+            documents, encompassing various styles, inks, and papers. Employing
+            cutting-edge image pre-processing methods like noise reduction and
+            normalization, we optimized data quality. Meticulous annotation and
+            ground truth generation ensured dataset reliability, covering
+            attributes such as age, authorship, and ink analysis. Data
+            augmentation techniques like rotation, translation, scaling, and
+            synthetic noise injection enhanced dataset diversity. The resulting
+            iVision HHID dataset serves as a benchmark for forgery detection,
+            authorship verification, and ink analysis. This project demonstrates
+            my expertise in image processing, data annotation, and collaborative
+            research in hyperspectral imaging-based document analysis.
+          </p>
+          <p>
+            <strong data-translate="project3-skills">Skills:</strong> Spectral
+            Analysis, Deep Learning, Machine Learning
+          </p>
+        </div>
+
+        <div class="project">
+          <h3 data-translate="project4-title">
+            Secure Multi-Client Chat Room Server
+          </h3>
+          <p>
+            <strong data-translate="project4-date">May 2023 - Jun 2023</strong>
+          </p>
+          <p>
+            <strong data-translate="project4-association"
+              >Associated with National University of Computer and Emerging
+              Sciences</strong
+            >
+          </p>
+          <p data-translate="project4-description">
+            This project implements a secure multi-client chat room server using
+            Python's socket and SSL libraries. The server enables real-time
+            text-based communication among multiple clients within a secure
+            environment. It establishes a secure socket connection using SSL/TLS
+            encryption, ensuring confidentiality and integrity. Clients connect
+            to the server by providing the server's IP address and port number.
+            Upon connection, clients receive a welcome message and are prompted
+            to enter their name. The server handles each client connection in a
+            separate thread, keeping track of connected clients and their
+            addresses. The server broadcasts messages to all clients, with the
+            sender's name as a prefix. When a client sends the "#quit" command,
+            they are gracefully disconnected, and the server notifies all
+            clients about the departure. This secure server facilitates seamless
+            multi-client chat interactions, ensuring message delivery and
+            maintaining the chat room's integrity through SSL/TLS encryption. It
+            supports multiple simultaneous connections, providing a safe and
+            user-friendly environment for communication and connection-building.
+          </p>
+          <p>
+            <strong data-translate="project4-skills">Skills:</strong> Python
+            (Programming Language), Network Security, Virtualization,
+            Infrastructure Solutions, Networking, Socket Programming,
+            Troubleshooting, Communication Protocols, SDKs
+          </p>
+        </div>
+
+        <div class="project">
+          <h3 data-translate="project5-title">
+            Building a Linux Web Server on Raspberry Pi 4 with Chat Room
+            Application
+          </h3>
+          <p>
+            <strong data-translate="project5-date">Apr 2023 - May 2023</strong>
+          </p>
+          <p>
+            <strong data-translate="project5-association"
+              >Associated with National University of Computer and Emerging
+              Sciences</strong
+            >
+          </p>
+          <p data-translate="project5-description">
+            Designed and built a Linux web server on a Raspberry Pi 4, along
+            with a multi-client chat room application. Set up an optimized Linux
+            environment, configured a web server (Apache2), and developed a
+            user-friendly interface for real-time communication. Implemented
+            security measures, including firewalls, encryption, and user
+            authentication. Stored chat data using SQL. Deployed the project on
+            the Raspberry Pi, enabling accessibility via its IP address.
+            Demonstrated proficiency in network programming, Linux system
+            administration, server deployment, and chat room application
+            development.
+          </p>
+          <p>
+            <strong data-translate="project5-skills">Skills:</strong> Python
+            (Programming Language), Network Security, Linux Server,
+            Virtualization, Infrastructure Solutions, Networking, Apache2,
+            Raspberry Pi, Debian, Communication Protocols, SDKs
+          </p>
+        </div>
+
+        <div class="project">
+          <h3 data-translate="project6-title">
+            Diabetic Retinopathy Identification Using Machine Learning
+          </h3>
+          <p>
+            <strong data-translate="project6-date">Apr 2023 - Jun 2023</strong>
+          </p>
+          <p>
+            <strong data-translate="project6-association"
+              >Associated with National University of Computer and Emerging
+              Sciences</strong
+            >
+          </p>
+          <p data-translate="project6-description">
+            This project focuses on utilizing machine learning models and
+            transfer learning techniques for the accurate identification of
+            diabetic retinopathy. The objective is to develop an efficient
+            system for the early detection and diagnosis of this
+            diabetes-related eye complication. A curated dataset of retinal
+            images from Kaggle is used, accompanied by labels indicating the
+            severity of retinopathy. Rigorous data preprocessing and annotation
+            procedures were implemented to ensure dataset quality. Various
+            machine learning models, including custom-designed convolutional
+            neural networks (CNNs) and pre-trained models such as MobileNetV2,
+            were trained and evaluated. Transfer learning techniques were
+            employed to enhance model performance. The project showcases
+            expertise in data collection, preprocessing, model design, and the
+            utilization of state-of-the-art machine-learning techniques for
+            medical diagnosis.
+          </p>
+          <p>
+            <strong data-translate="project6-skills">Skills:</strong> Deep
+            Learning, TensorFlow, Transfer Learning, Machine Learning
+          </p>
+        </div>
+
+        <div class="project">
+          <h3 data-translate="project7-title">
+            Design and Implementation of Light Intensity Measurement using LDR
+            and AVR Microcontroller
+          </h3>
+          <p>
+            <strong data-translate="project7-date">Oct 2022 - Dec 2022</strong>
+          </p>
+          <p>
+            <strong data-translate="project7-association"
+              >Associated with National University of Computer and Emerging
+              Sciences</strong
+            >
+          </p>
+          <p data-translate="project7-description">
+            During our project of Light Intensity Measurement using LDR and AVR
+            Microcontroller, we gained hands-on experience in using MicroChip
+            Studio for AVR programming and Proteus for simulation of the design.
+            We also learned how to interface LDR with AVR microcontroller, how
+            to use UART as a communication protocol for data transfer between
+            microcontrollers and display the real-time data on a 16*2 LCD. Our
+            project helped us understand the practical implementation of
+            microcontroller-based systems and enhanced our skills in embedded
+            system design.
+          </p>
+          <p>
+            <strong data-translate="project7-skills">Skills:</strong> C
+            (Programming Language), Debuggers, Assembly Language, Leadership,
+            Communication Protocols
+          </p>
+        </div>
+
+        <div class="project">
+          <h3 data-translate="project8-title">
+            Designed an Internetwork for our Campus (FAST University)
+          </h3>
+          <p>
+            <strong data-translate="project8-date">Dec 2022 - Dec 2022</strong>
+          </p>
+          <p>
+            <strong data-translate="project8-association"
+              >Associated with National University of Computer and Emerging
+              Sciences</strong
+            >
+          </p>
+          <p data-translate="project8-description">
+            Designed and implemented an internetwork using Cisco Packet Tracer
+            to connect FAST University campuses and the Head Office. Created
+            separate networks for Electrical Engineering (EE), Computer Science
+            (CS), and Business Administration (BBA) departments at each campus
+            with strategic IP addressing. Utilized routers for inter-campus
+            connectivity and employed static routing or RIP based on the number
+            of routers. Configured DHCP for IP and gateway allocation, ensuring
+            efficient network management. Integrated servers at the Head Office
+            for centralized services. This project demonstrated proficiency in
+            network design, IP addressing, routing protocols, and DHCP
+            configuration in establishing robust and interconnected internetwork
+            for FAST University.
+          </p>
+          <p>
+            <strong data-translate="project8-skills">Skills:</strong> Internet
+            Protocol Suite (TCP/IP), Networking, Troubleshooting, Leadership,
+            Packet Tracer, Communication Protocols
+          </p>
+        </div>
+
+        <div class="project">
+          <h3 data-translate="project9-title">
+            Designed and simulated an FM system with SSB-FDM using MATLAB
+          </h3>
+          <p>
+            <strong data-translate="project9-date">Nov 2022 - Dec 2022</strong>
+          </p>
+          <p>
+            <strong data-translate="project9-association"
+              >Associated with National University of Computer and Emerging
+              Sciences</strong
+            >
+          </p>
+          <p data-translate="project9-description">
+            In Analog and Digital Communications, my partner and I designed and
+            simulated an FM system with SSB-FDM using MATLAB. We gained
+            practical experience in communication systems and a deeper
+            understanding of modulation techniques. This project provided us
+            with valuable skills in system design, simulation, and signal
+            processing.
+          </p>
+          <p>
+            <strong data-translate="project9-skills">Skills:</strong> MATLAB
+          </p>
+        </div>
+
+        <div class="project">
+          <h3 data-translate="project10-title">DC Regulated Power Supply</h3>
+          <p>
+            <strong data-translate="project10-date">Nov 2021 - Dec 2021</strong>
+          </p>
+          <p>
+            <strong data-translate="project10-association"
+              >Associated with National University of Computer and Emerging
+              Sciences</strong
+            >
+          </p>
+          <p data-translate="project10-description">
+            Designed and Simulated 5V DC Power Supply with the help of Bridge
+            rectifier, capacitors, and voltage regulator IC 7805 in Proteus.
+            This project provided practical experience in designing power
+            supplies, using simulation tools, and understanding electronic
+            components and circuit design.
+          </p>
+          <p>
+            <strong data-translate="project10-skills">Skills:</strong> Proteus
+          </p>
+        </div>
+
+        <div class="project">
+          <h3 data-translate="project11-title">Digital Communication System</h3>
+          <p>
+            <strong data-translate="project11-date">Jun 2021 - Jul 2021</strong>
+          </p>
+          <p>
+            <strong data-translate="project11-association"
+              >Associated with National University of Computer and Emerging
+              Sciences</strong
+            >
+          </p>
+          <p data-translate="project11-description">
+            In this project, we have Simulate a simple communication system
+            using two (8*2 mux) a parallel to serial and serial to parallel,
+            communication is done via single line, simulating the design using
+            the Proteus software for the designing purpose. This project gave us
+            hands-on experience in digital communication systems and circuit
+            design using simulation software.
+          </p>
+          <p>
+            <strong data-translate="project11-skills">Skills:</strong> Proteus
+          </p>
+        </div>
+
+        <div class="project">
+          <h3 data-translate="project12-title">
+            Designed university 3-D Computer Lab using AutoCAD
+          </h3>
+          <p>
+            <strong data-translate="project12-date">Nov 2019 - Dec 2019</strong>
+          </p>
+          <p>
+            <strong data-translate="project12-association"
+              >Associated with National University of Computer and Emerging
+              Sciences</strong
+            >
+          </p>
+          <p data-translate="project12-description">
+            In this semester project, I created a university 3-D lab design
+            using AutoCAD tools and commands. This project improved my skills in
+            3D design and AutoCAD, providing practical experience in using
+            design software for real-world applications.
+          </p>
+          <p>
+            <strong data-translate="project12-skills">Skills:</strong> AutoCAD
+          </p>
+        </div>
+
+        <div class="project">
+          <h3 data-translate="project13-title">Smoke Sensor using Arduino</h3>
+          <p>
+            <strong data-translate="project13-date">Oct 2019 - Nov 2019</strong>
+          </p>
+          <p>
+            <strong data-translate="project13-association"
+              >Associated with National University of Computer and Emerging
+              Sciences</strong
+            >
+          </p>
+          <p data-translate="project13-description">
+            Designed Arduino smoke level detector using MQ-2 sensor for
+            measuring the level of smoke in the environment. This project
+            enhanced my skills in using Arduino for sensor interfacing and
+            real-time data processing. It provided practical experience in
+            designing and implementing sensor-based systems for environmental
+            monitoring.
+          </p>
+          <p>
+            <strong data-translate="project13-skills">Skills:</strong> C
+            (Programming Language), C++
+          </p>
+        </div>
+      </div>
+      <!--Skills Section-->
+      <div id="skills" class="section">
+        <h2 data-translate="skills">Skills</h2>
+
+        <h3 data-translate="web-dev-programming">Web Dev Programming</h3>
+        <div class="skills-container">
+          <div class="skill-card">
+            <img src="images/html-icon.png" alt="HTML" />
+            <span class="tooltip">HTML - Advanced</span>
+          </div>
+          <div class="skill-card">
+            <img src="images/css-icon.png" alt="CSS" />
+            <span class="tooltip">CSS - Advanced</span>
+          </div>
+          <div class="skill-card">
+            <img src="images/js-icon.png" alt="JavaScript" />
+            <span class="tooltip">JavaScript - Intermediate</span>
+          </div>
+          <div class="skill-card">
+            <img src="images/nodejs-icon.png" alt="Node.js" />
+            <span class="tooltip">Node.js - Intermediate</span>
+          </div>
+        </div>
+
+        <h3 data-translate="ai-ml-programming-devops-tools">
+          AI & ML Programming Languages and DevOps Tools
+        </h3>
+        <div class="skills-container">
+          <div class="skill-card">
+            <img src="images/python-icon.png" alt="Python" />
+            <span class="tooltip">Python - Advanced</span>
+          </div>
+          <div class="skill-card">
+            <img src="images/aws-icon.png" alt="AWS" />
+            <span class="tooltip">AWS Cloud - Intermediate</span>
+          </div>
+          <div class="skill-card">
+            <img src="images/bash-icon.png" alt="Bash" />
+            <span class="tooltip">Bash scripting - Intermediate</span>
+          </div>
+          <div class="skill-card">
+            <img src="images/iac-icon.png" alt="IAC" />
+            <span class="tooltip">IAC - Intermediate</span>
+          </div>
+          <div class="skill-card">
+            <img src="images/git-icon.png" alt="GIT" />
+            <span class="tooltip">GIT/GITHUB - Intermediate</span>
+          </div>
+        </div>
+
+        <h3 data-translate="embedded-iiot-programming-languages-tools">
+          Embedded/IIOT System Programming Languages and Tools
+        </h3>
+        <div class="skills-container">
+          <div class="skill-card">
+            <img src="images/c-icon1.png" alt="C" />
+            <span class="tooltip">C - Advanced</span>
+          </div>
+
+          <div class="skill-card">
+            <img src="images/c-icon.png" alt="C++" />
+            <span class="tooltip">C++ - Advanced</span>
+          </div>
+
+          <div class="skill-card">
+            <img src="images/asm-icon.png" alt="Assembly Language" />
+            <span class="tooltip">Assembly Language - Intermediate</span>
+          </div>
+          <div class="skill-card">
+            <img src="images/python-icon.png" alt="Python" />
+            <span class="tooltip">Python - Advanced</span>
+          </div>
+          <div class="skill-card">
+            <img src="images/pi-icon.png" alt="Raspberry PI MCU" />
+            <span class="tooltip">Raspberry PI MCU - Intermediate</span>
+          </div>
+          <div class="skill-card">
+            <img src="images/arduino-icon.png" alt="Arduino MCU" />
+            <span class="tooltip">Arduino MCU - Intermediate</span>
+          </div>
+          <div class="skill-card">
+            <img src="images/awsiot-icon.png" alt="AWS IOT" />
+            <span class="tooltip">AWS IOT - Intermediate</span>
+          </div>
+        </div>
+
+        <h3 data-translate="networking-tools">Networking Tools</h3>
+        <div class="skills-container">
+          <div class="skill-card">
+            <img src="images/cisco-icon.png" alt="Cisco Packet Tracer" />
+            <span class="tooltip">Cisco Packet Tracer - Intermediate</span>
+          </div>
+          <div class="skill-card">
+            <img src="images/wireshark-icon.png" alt="Wireshark" />
+            <span class="tooltip">Wireshark - Intermediate</span>
+          </div>
+          <div class="skill-card">
+            <img src="images/asterisk-icon.png" alt="Asterisk" />
+            <span class="tooltip">Asterisk - Intermediate</span>
+          </div>
+          <div class="skill-card">
+            <img src="images/mqtt-icon.png" alt="MQTT IoT Protocol" />
+            <span class="tooltip">MQTT IoT Protocol - Intermediate</span>
+          </div>
+        </div>
+
+        <h3 data-translate="operating-systems">Operating Systems</h3>
+        <div class="skills-container">
+          <div class="skill-card">
+            <img src="images/windows-icon.png" alt="Windows" />
+            <span class="tooltip">Windows - Advanced</span>
+          </div>
+          <div class="skill-card">
+            <img src="images/ubuntu-icon.png" alt="Ubuntu" />
+            <span class="tooltip">Ubuntu - Advanced</span>
+          </div>
+          <div class="skill-card">
+            <img src="images/debian-icon.png" alt="Debian" />
+            <span class="tooltip">Debian - Advanced</span>
+          </div>
+          <div class="skill-card">
+            <img src="images/centos-icon.png" alt="CentOS" />
+            <span class="tooltip">CentOS - Advanced</span>
+          </div>
+        </div>
+
+        <h3 data-translate="current-learning-journey">
+          Current Learning Journey
+        </h3>
+        <ul>
+          <li>
+            <strong data-translate="ai-ml"
+              >Artificial Intelligence & Machine Learning:</strong
+            >
+            <span data-translate="ai-ml-desc"
+              >Currently enrolled in a Nanodegree program at Udacity. Deep dive
+              into fundamental concepts such as supervised and unsupervised
+              learning, and model evaluation. Equipping myself with tools to
+              tackle real-world AI/ML challenges.</span
+            >
+          </li>
+          <li>
+            <strong data-translate="devops">DevOps:</strong>
+            <span data-translate="devops-desc"
+              >Honing skills in DevOps practices including CI/CD pipelines and
+              infrastructure as code (IaC). Learning about tools and
+              technologies like AWS CodePipeline and CloudFormation to
+              streamline the software development lifecycle.</span
+            >
+          </li>
+          <li>
+            <strong data-translate="language-learning"
+              >Language Learning:</strong
+            >
+            <span data-translate="language-learning-desc"
+              >Actively learning German (Deutsch) to expand my linguistic skills
+              and cultural understanding.</span
+            >
+          </li>
+        </ul>
+        <p data-translate="expertise">
+          Expertise in AWS cloud solution, AI & ML, Generative AI, Embedded
+          Systems, IIOT Programming, Computer Networks, TCP/IP and OSI models.
+        </p>
+      </div>
+      <!--Interests Section-->
+      <div id="interests" class="section">
+        <h2 data-translate="interests">Interests</h2>
+        <p data-translate="interests-description">
+          Apart from being an engineer, I enjoy most of my time being outdoors.
+          🌲 In the winter, I like to explore nature and visit historical sites
+          like museums, parks, and attend technological events. During the
+          warmer months in Islamabad, I enjoy trail hiking in the beautiful
+          Islamabad trails. 🏞️ When traveling, I love to explore different
+          cultures and discover new places within Pakistan. 🗺️ When indoors, I
+          follow a number of sci-fi and fantasy genre movies and television
+          shows. I am an aspiring chef and spend a large amount of my free time
+          exploring the latest technology advancements in AI and ML, generative
+          AI utilizing AWS solutions.
+        </p>
+
+        <div class="interests-container">
+          <div class="interest">
+            <h3 data-translate="ai-robotics">AI and Robotics</h3>
+            <p>
+              I am fascinated by the advancements in AI and robotics. Exploring
+              how these technologies integrate into industries.
+            </p>
+            <img src="images/ai-and-robotics.png" alt="AI and Robotics" />
+          </div>
+          <div class="interest">
+            <h3 data-translate="trail-hiking">Trail Hiking</h3>
+            <p>
+              Exploring the beautiful trails of Islamabad and enjoying the
+              natural surroundings.
+            </p>
+            <img src="images/hiking1.png" alt="Trail Hiking" />
+          </div>
+          <div class="interest">
+            <h3 data-translate="travel">Travel</h3>
+            <p>
+              Exploring different cultures and experiencing new destinations
+              around the globe.
+            </p>
+            <img src="images/travel.png" alt="Travel" />
+          </div>
+          <div class="interest">
+            <h3 data-translate="music">Music</h3>
+            <p>Music is a big part of my life, providing joy and relaxation.</p>
+            <img src="images/music.png" alt="Music" />
+          </div>
+        </div>
+      </div>
+      <!--Award Section-->
+      <div id="awards" class="section">
+        <h2 data-translate="awards-heading">Awards and Achievements</h2>
+
+        <button
+          class="collapsible"
+          data-translate="course-certificates-heading"
+        >
+          Course Certificates - Click on the Certificate to View
+        </button>
+        <div class="content">
+          <ul>
+            <li>
+              <a href="certificates-degrees-achievements/certificate1.pdf"
+                >Introducing Generative AI with AWS - Udacity</a
+              >
+            </li>
+            <li>
+              <a href="certificates-degrees-achievements/certificate4.pdf"
+                >Career Essentials in Sustainable Tech by Microsoft and
+                LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="certificates-degrees-achievements/certificate5.pdf"
+                >DevOps Foundations - LinkedIn</a
+              >
+            </li>
+            <li>
+              <a href="certificates-degrees-achievements/certificate6.pdf"
+                >Developing Industrial Internet of Things Specialization -
+                University of Colorado Boulder</a
+              >
+            </li>
+            <li>
+              <a href="certificates-degrees-achievements/certificate7.pdf"
+                >An Introduction to Programming the Internet of Things (IOT)
+                Specialization - University of California, Irvine</a
+              >
+            </li>
+            <li>
+              <a href="certificates-degrees-achievements/certificate8.pdf"
+                >AWS Cloud Solutions Architect Specialization - AWS</a
+              >
+            </li>
+            <li>
+              <a href="certificates-degrees-achievements/certificate9.pdf"
+                >AWS Fundamentals Specialization - AWS</a
+              >
+            </li>
+            <li>
+              <a href="certificates-degrees-achievements/certificate10.pdf"
+                >Machine Learning Specialization - Coursera</a
+              >
+            </li>
+            <li>
+              <a href="certificates-degrees-achievements/certificate11.pdf"
+                >The Bits and Bytes of Computer Networking - Google</a
+              >
+            </li>
+            <li>
+              <a href="certificates-degrees-achievements/certificate12.pdf"
+                >Intermediate Python - DataCamp</a
+              >
+            </li>
+            <li>
+              <a href="certificates-degrees-achievements/certificate13.pdf"
+                >Intermediate SQL - DataCamp</a
+              >
+            </li>
+            <li>
+              <a href="certificates-degrees-achievements/certificate14.pdf"
+                >Data Engineering - DataCamp</a
+              >
+            </li>
+            <li>
+              <a href="certificates-degrees-achievements/certificate15.pdf"
+                >C for everyone: Programming Fundamentals - University of
+                California, Santa Cruz</a
+              >
+            </li>
+            <li>
+              <a href="certificates-degrees-achievements/certificate16.pdf"
+                >Digital Intelligence Job Simulation - Forage-PwC Switzerland</a
+              >
+            </li>
+            <li>
+              <a href="certificates-degrees-achievements/certificate17.pdf"
+                >Solutions Architecture Job Simulation - Forage-AWS</a
+              >
+            </li>
+          </ul>
+        </div>
+        <button class="collapsible" data-translate="achievements-heading">
+          Achievements
+        </button>
+        <div class="content">
+          <ul>
+            <li class="achievement">
+              <strong>Degree Certificate:</strong>
+              <a href="certificates-degrees-achievements/Degree-Certificate.pdf"
+                >View Certificate</a
+              >
+              <span class="tooltip">NUCES, FAST, Islamabad</span>
+            </li>
+            <li class="achievement">
+              <strong
+                >Washington Accord Signatory PEC License Certificate:</strong
+              >
+              <a href="certificates-degrees-achievements/pec-certificate.pdf"
+                >View Certificate</a
+              >
+              <span class="tooltip">PEC License</span>
+            </li>
+            <li class="achievement">
+              <strong>Huawei ICT Competition Certificate:</strong>
+              <a href="certificates-degrees-achievements/huawei-certificate.pdf"
+                >View Certificate</a
+              >
+              <span class="tooltip">Huawei ICT Competition</span>
+            </li>
+            <li class="achievement">
+              <strong>AWS DeepRacer Scholarship Recipient:</strong>
+              Honored to receive the prestigious AWS DeepRacer Scholarship. This
+              program recognizes promising individuals in the AI/ML field and
+              provides valuable resources to further their education.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <!--Blogs Section-->
+      <div id="blog" class="section">
+        <h2 data-translate="blog">Blog Posts</h2>
+        <p>
+          I post content on Medium monthly, covering topics like VoIP, AI,
+          DevOps, and more. Here are some of my recent articles:
+        </p>
+
+        <div class="blog-post">
+          <h3>
+            Say Goodbye to Hassles: How I Discovered the Solution to All My
+            Communication Needs with VoIP
+          </h3>
+          <p>Published on: May 24, 2024</p>
+          <p>
+            Explore how VoIP can solve all your communication needs and make
+            your business more efficient...
+          </p>
+          <a
+            href="https://medium.com/@s.daud/say-goodbye-to-hassles-how-i-discovered-the-solution-to-all-my-communication-needs-with-voip-1298952e181d"
+            target="_blank"
+            >Read more on Medium</a
+          >
+        </div>
+
+        <div class="blog-post">
+          <h3>
+            How to Set Up a VoIP System for Small Businesses: Revolutionize Your
+            Business Communication
+          </h3>
+          <p>Published on: June 18, 2024</p>
+          <p>
+            Discover how to set up a VoIP system for small businesses and
+            revolutionize your business communication...
+          </p>
+          <a
+            href="https://medium.com/@s.daud/how-to-set-up-a-voip-system-for-small-businesses-revolutionize-your-business-communication-with-8f66f167cc06"
+            target="_blank"
+            >Read more on Medium</a
+          >
+        </div>
+        <div class="blog-post">
+          <h3>How AI is Transforming the Tech Industry</h3>
+          <p>To be Published on: July 25, 2024</p>
+          <p>
+            Artificial Intelligence (AI) is revolutionizing various sectors,
+            including technology, healthcare, finance, and more. This post
+            explores the latest trends and advancements in AI that are shaping
+            the future...
+          </p>
+          <a href="https://medium.com/@s.daud" target="_blank"
+            >Read more on Medium</a
+          >
+        </div>
+        <div class="blog-post">
+          <h3>DevOps Best Practices for 2024</h3>
+          <p>To be Published on: August 10, 2024</p>
+          <p>
+            Discover the top DevOps practices that can help streamline your
+            software development lifecycle, improve collaboration, and enhance
+            deployment processes in 2024...
+          </p>
+          <a href="https://medium.com/@s.daud" target="_blank"
+            >Read more on Medium</a
+          >
+        </div>
+        <p style="text-align: center">
+          <a href="https://medium.com/@s.daud" target="_blank"
+            >View all posts on Medium</a
+          >
+        </p>
+      </div>
+    </main>
+    <footer>
+      <nav>
+        <ul>
+          <li><a href="#" data-content="privacy-policy">Privacy Policy</a></li>
+          <li><a href="#" data-content="terms-of-use">Terms of Use</a></li>
+          <li><a href="#" data-content="contact">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="social-links">
+        <a href="https://www.facebook.com/shahzaibdaud42/"
+          ><img src="images/facebook-icon1.png" alt="Facebook"
+        /></a>
+        <a href="https://www.linkedin.com/in/shahzaib-daud-electrical-engineer/"
+          ><img src="images/linkedin-icon1.png" alt="LinkedIn"
+        /></a>
+        <a href="https://github.com/DaudCloud-sudo"
+          ><img src="images/github-icon1.png" alt="GitHub"
+        /></a>
+      </div>
+      <p>&copy; 2024 Shahzaib Daud</p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
+    <script src="script.js" defer></script>
+  </body>
+</html>

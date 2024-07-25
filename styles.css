@@ -1,0 +1,612 @@
+/*
+=========================================================
+Author: Shahzaib Daud
+Occupation: Computer Engineer
+Website: www.shahzaibdaud.com
+Date: 01-07-2024
+
+Description:
+This CSS file contains the styles for the  project. It is used to style the HTML elements.
+
+Usage:
+This code is open-source and can be used and modified as per the requirements. Please give credit to the original author when using this code.
+
+=========================================================
+*/
+body {
+  font-family: "Roboto", sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+  color: #333;
+}
+
+header {
+  background: #222;
+  color: #fff;
+  padding: 1rem 0;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-family: "Orbitron", sans-serif;
+  position: relative;
+  z-index: 1000;
+  flex-wrap: wrap; /* Allows wrapping on small screens */
+}
+
+.logo {
+  margin-left: 20px;
+  height: 130px;
+  width: 130px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+.header-container {
+  text-align: center;
+  margin-top: 20px;
+  flex-grow: 1; /* Allows it to grow and take available space */
+}
+.header-container h1 {
+  font-size: 2em;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
+.header-container h2 {
+  font-size: 12px;
+  color: #555;
+  margin-top: 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0;
+  font-family: "Orbitron", sans-serif;
+  flex-wrap: wrap; /* Allows wrapping on small screens */
+}
+
+nav ul li {
+  margin: 0 1rem;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Orbitron", sans-serif;
+}
+
+button {
+  background: #fff;
+  color: #333;
+  border: 2px solid #333;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  margin-left: 1rem;
+  transition: background 0.3s, color 0.3s;
+  font-family: sans-serif;
+}
+
+button:hover {
+  background: #333;
+  color: #fff;
+}
+
+/* Media Queries for mobile devices */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .logo {
+    margin: 0 auto 10px; /* Center logo on mobile */
+    height: 100px;
+    width: 100px;
+  }
+
+  .header-container {
+    margin: 10px 0;
+  }
+
+  .header-container h1 {
+    font-size: 1.5em;
+  }
+
+  .header-container h2 {
+    font-size: 10px;
+  }
+
+  nav ul {
+    flex-direction: column;
+  }
+
+  nav ul li {
+    margin: 10px 0;
+  }
+
+  button {
+    margin: 10px 0;
+  }
+}
+
+.social-links {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.social-links a img {
+  width: 50px;
+  height: 50px;
+  margin: 5px 5.5rem;
+}
+
+.education-entry {
+  margin-bottom: 20px;
+  padding: 15px;
+  border-bottom: 1px solid #ddd;
+}
+
+.education-entry h3 {
+  margin: 0;
+  font-size: 1.2em;
+  color: #333;
+}
+
+.education-entry p {
+  margin: 5px 0;
+  color: #555;
+}
+
+.project {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #ccc;
+  padding-bottom: 10px;
+}
+
+.project h3 {
+  margin-top: 0;
+}
+
+.project p {
+  margin: 5px 0;
+}
+
+#interests {
+  text-align: center;
+  padding: 50px 0;
+}
+
+#interests h2 {
+  font-size: 2.5em;
+  margin-bottom: 30px;
+}
+
+#interests p {
+  max-width: 800px;
+  margin: 0 auto 50px auto;
+  font-size: 1.1em;
+  color: #666;
+}
+
+.interests-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+}
+
+.interest {
+  flex: 1 1 300px;
+  background-color: #f5f5f5;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: left;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.interest:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.interest img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
+}
+
+.interest h3 {
+  margin-top: 0;
+}
+
+.interest p {
+  margin: 5px 0;
+}
+
+.section {
+  padding: 50px 20px;
+  text-align: center;
+}
+
+.section h2 {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 15px;
+}
+
+.skill-card {
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  text-align: center;
+  transition: transform 0.3s, box-shadow 0.3s;
+  width: 150px;
+  position: relative;
+}
+
+.skill-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+.skill-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 8px 16px rgb(255, 255, 255);
+}
+
+.skill-card:hover .tooltip {
+  display: block;
+}
+
+.tooltip {
+  display: none;
+  position: absolute;
+  background: #333;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-size: 0.9em;
+  text-align: center;
+  width: 120px;
+  left: 50%;
+  bottom: 125%;
+  transform: translateX(-50%);
+  opacity: 0;
+  transition: opacity 0.3s;
+}
+
+.skill-card:hover .tooltip {
+  opacity: 1;
+}
+
+.collapsible {
+  cursor: pointer;
+  padding: 18px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 1.5em;
+  margin-top: 20px;
+}
+
+.active:after {
+  content: "\2212";
+}
+
+.collapsible:after {
+  content: "\002B";
+  font-weight: bold;
+  float: right;
+  margin-left: 5px;
+}
+
+.content {
+  padding: 0 18px;
+  display: none;
+  overflow: hidden;
+  background-color: #f9f9f9;
+  text-align: left;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  text-align: left;
+  margin: 20px 0;
+}
+
+ul li {
+  margin-bottom: 10px;
+}
+
+ul li a {
+  text-decoration: none;
+  color: #333;
+  transition: color 0.3s;
+}
+
+ul li a:hover {
+  color: #007bff;
+}
+
+@media (max-width: 768px) {
+  .skills-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .skill-card {
+    width: 80%;
+    margin-bottom: 20px;
+  }
+}
+
+.interest img {
+  width: 100%;
+  border-radius: 8px;
+  margin-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .interests-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .interest {
+    width: 100%;
+  }
+}
+
+.achievement {
+  margin-bottom: 15px;
+}
+
+.achievement strong {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.achievement a {
+  text-decoration: none;
+  color: #007bff;
+  margin-right: 10px;
+}
+
+.tooltip {
+  display: none;
+  font-size: 0.8em;
+  color: #666;
+}
+
+.achievement:hover .tooltip {
+  display: inline;
+}
+
+footer {
+  background: linear-gradient(135deg, #1c1c1c, #333);
+  color: #f0f0f0;
+  padding: 2rem 1rem;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  position: relative;
+  z-index: 500;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+footer nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  margin: 0 0 2rem 0;
+}
+
+footer nav ul li {
+  margin: 0 1.5rem;
+}
+
+footer nav ul li a {
+  color: #f0f0f0;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: color 0.3s;
+}
+
+footer nav ul li a:hover {
+  color: #007bff;
+}
+
+.social-links {
+  margin-bottom: 2rem;
+}
+
+.social-links a {
+  margin: 0 0.5rem;
+  display: inline-block;
+  transition: transform 0.3s, filter 0.3s;
+}
+
+.social-links a:hover {
+  transform: scale(1.2);
+  filter: brightness(1.5);
+}
+
+.social-links img {
+  width: 30px;
+  height: 30px;
+}
+
+footer p {
+  font-size: 0.9rem;
+  opacity: 0.7;
+  margin-top: 1rem;
+}
+
+.contact-form {
+  margin-top: 2rem;
+  text-align: left;
+  max-width: 600px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.contact-form h3 {
+  margin-bottom: 1rem;
+  color: #007bff;
+}
+
+.contact-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-form form label,
+.contact-form form input,
+.contact-form form textarea,
+.contact-form form button {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.contact-form form input,
+.contact-form form textarea {
+  padding: 0.75rem;
+  font-size: 1rem;
+  border: none;
+  border-radius: 5px;
+  background: #f0f0f0;
+  color: #333;
+  box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form form input:focus,
+.contact-form form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.contact-form form button {
+  background: #007bff;
+  color: #fff;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.contact-form form button:hover {
+  background: #0056b3;
+  transform: translateY(-2px);
+}
+
+.alternative-contact {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+  color: #333; /* Neutral color that works well on both light and dark backgrounds */
+}
+
+.alternative-contact ul {
+  list-style: none;
+  padding: 0;
+}
+
+.alternative-contact ul li {
+  margin-bottom: 0.5rem;
+}
+
+.alternative-contact ul li a {
+  color: #007bff;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.alternative-contact ul li a:hover {
+  color: #0056b3;
+}
+
+.section {
+  display: none;
+}
+
+.section.active {
+  display: block;
+}
+
+.resume-link {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+
+.skill-icons img {
+  width: 40px;
+  height: 40px;
+  margin: 0.5rem;
+}
+
+.dark-theme {
+  background-color: #333;
+  color: #fff;
+}
+
+.dark-theme header {
+  background-color: #111;
+}
+
+.dark-theme footer {
+  background-color: #111;
+}
+
+.dark-theme nav ul li a {
+  color: #ddd;
+}
+
+.dark-theme button {
+  background: #333;
+  color: #fff;
+}
+
+.dark-theme button:hover {
+  background: #fff;
+  color: #333;
+}
+
+.modern-btn {
+  background: #f4f4f4;
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  padding: 0.5rem 1.5rem;
+  transition: all 0.3s;
+  font-family: sans-serif;
+}
+
+.modern-btn:hover {
+  background: #ddd;
+  border-color: #bbb;
+  color: #333;
+}
