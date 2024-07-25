@@ -129,11 +129,11 @@ This project is a dynamic portfolio website that includes a contact form. The ba
 1. Open the website in Google Chrome and fill out the contact form.
 2. Submit the form and check for a 200 status code indicating success.
 
-![image](https://github.com/user-attachments/assets/73c3f762-61bb-4f86-9a74-106dc22f97ec)
+![image](https://github.com/user-attachments/assets/74fb528b-e5ab-4f3e-8a47-5b634014b82c)
 
 3. Verify that the form data is stored in DynamoDB.
 
-![image](https://github.com/user-attachments/assets/6dfe5684-50c2-4c97-be0c-b782535dbb0e)
+![image](https://github.com/user-attachments/assets/f6d2878e-6585-4afb-b062-335b3a9e6c74)
 
 ### Conclusion
 
